@@ -1,6 +1,6 @@
 {
   "name": "dsh-subagent-grok",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "One-shot Grok CLI subagent provider for DeepSeek Harness",
   "repository": {
     "type": "git",
@@ -30,6 +30,11 @@
     "@deepseek-ai/cordis": "^4.0.1",
     "@deepseek-ai/dsh": ">=0.1.1-rc.2 <0.2.0-0",
     "@deepseek-ai/dsh-subagent": ">=0.1.1-rc.2 <0.2.0-0"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": { "optional": true },
+    "@deepseek-ai/dsh": { "optional": true },
+    "@deepseek-ai/dsh-subagent": { "optional": true }
   },
   "engines": {
     "node": ">=20"
