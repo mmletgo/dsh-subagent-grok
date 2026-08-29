@@ -1,0 +1,13 @@
+- insert:
+    - id: subagent-grok
+      name: dsh-subagent-grok
+      config:
+        providerName: grok
+        sandbox: workspace
+
+- id: tool-subagent
+  name: '@deepseek-ai/dsh-tool-subagent'
+  config:
+    provider: grok
+    toolName: subagent
+    backgroundMode: one-shot
