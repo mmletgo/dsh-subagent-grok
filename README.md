@@ -1,10 +1,10 @@
 # dsh-subagent-grok
 
-Install from a local checkout:
+Install:
 
 ```sh
 export DSH_HOME=/tmp/dsh-subagent-grok-home
-dsh plugin --profile headless add /absolute/path/to/dsh-subagent-grok
+dsh plugin --profile headless add dsh-subagent-grok
 ```
 
 [中文](README.zh.md)

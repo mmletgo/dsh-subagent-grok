@@ -2,6 +2,12 @@
   "name": "dsh-subagent-grok",
   "version": "0.1.0",
   "description": "One-shot Grok CLI subagent provider for DeepSeek Harness",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarthusLorin/dsh-subagent-grok.git"
+  },
+  "homepage": "https://github.com/KarthusLorin/dsh-subagent-grok#readme",
+  "bugs": "https://github.com/KarthusLorin/dsh-subagent-grok/issues",
   "type": "module",
   "main": "./index.js",
   "exports": ".",
@@ -27,6 +33,10 @@
   },
   "engines": {
     "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "dsh-plugin",
