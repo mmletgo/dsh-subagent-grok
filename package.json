@@ -10,7 +10,7 @@
   "bugs": "https://github.com/KarthusLorin/dsh-subagent-grok/issues",
   "type": "module",
   "main": "./index.js",
-  "exports": ".",
+  "exports": "./index.js",
   "files": [
     "index.js",
     "cordis.patch.yml",
